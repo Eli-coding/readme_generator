@@ -17,7 +17,10 @@ function renderLicenseBadge(license) {
 
     licenseLink = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
 
-  } 
+  } else {
+
+    licenseLink = "";
+  }
 
   
  
@@ -25,6 +28,27 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+
+  if (license === "Apache 2.0") {
+
+    licenseLink = "https://choosealicense.com/licenses/apache-2.0/"
+
+  } else if (license === "MIT") {
+
+    licenseLink = "https://choosealicense.com/licenses/mit/"
+
+  } else if (license === "GNU") {
+
+    licenseLink = "https://choosealicense.com/licenses/gpl-3.0/"
+
+  } else if (license === "Mozilla") {
+
+    licenseLink = "https://choosealicense.com/licenses/mpl-2.0/"
+
+  } else {
+
+    licenseLink = "";
+  }
  
 }
 
@@ -69,7 +93,7 @@ ${data.install}
 ${data.repoUse}
 
 ## Licenses
-${renderLicenseBadge(data.license)}
+${renderLicenseSection(data.license)}
 
 
 ## How to Contribute
