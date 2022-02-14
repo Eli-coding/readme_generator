@@ -1,6 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+  console.log(license + "from renderLicenseBadge")
   if (license === "Apache 2.0") {
 
     licenseLink = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
@@ -28,7 +29,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-
+  console.log(license + "from renderLicenseLink")
   if (license === "Apache 2.0") {
 
     licenseLink = "https://choosealicense.com/licenses/apache-2.0/"
@@ -108,8 +109,8 @@ ${data.runTest}
 Git Hub username:
 ${data.username}
 
-To reach me with additional questions please email me.  
-${data.email}
+To reach me please email me at ${data.email}.  
+
 
 
 `
