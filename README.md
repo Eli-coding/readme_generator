@@ -1,4 +1,4 @@
-# j
+git # j
 
 ## Description
 h
@@ -45,3 +45,6 @@ To reach me please email me at k.
 
 
 
+# readme_generator
+
+A command-line application that generates a professional README.md file from a user's input using the Inquirer package.
