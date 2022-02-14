@@ -73,7 +73,7 @@ function writeToFile(data) {
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((answer) => {
-    console.log(answer);
+    //console.log(answer);
 
     const template = generateMarkdown(answer)
     console.log(template);

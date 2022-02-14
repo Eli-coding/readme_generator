@@ -23,7 +23,7 @@ function renderLicenseBadge(license) {
     licenseLink = "";
   }
 
-  
+  return licenseLink;
  
 }
 // TODO: Create a function that returns the license link
@@ -51,16 +51,22 @@ function renderLicenseLink(license) {
     licenseLink = "";
   }
  
+  return licenseLink;
 }
 
+
+    //renderLicenseBadge();
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
 
   if (license === 'MIT' || license === 'Apache 2.0' || license === 'GNU' || license === 'Mozilla') {
-
-    renderLicenseBadge();
-    renderLicenseLink();
+    return `
+    ${renderLicenseBadge()};
+    ${renderLicenseLink()};
+    
+    `
+    
     
   } else {
 
@@ -94,8 +100,8 @@ ${data.install}
 ${data.repoUse}
 
 ## Licenses
-${renderLicenseSection(data.license)}
 
+${renderLicenseSection(data.license)}
 
 ## How to Contribute
 
