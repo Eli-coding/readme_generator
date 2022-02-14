@@ -61,7 +61,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
 
   if (license === 'MIT' || license === 'Apache 2.0' || license === 'GNU' || license === 'Mozilla') {
-    return  renderLicenseBadge(license) + "\n \n" + renderLicenseLink(license)
+    return  renderLicenseLink(license)
         
   } else {
 
@@ -73,6 +73,8 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ${renderLicenseBadge(data.license)}
+        
 ## Description
 ${data.description}
 
