@@ -32,19 +32,19 @@ function renderLicenseLink(license) {
   console.log(license + "from renderLicenseLink")
   if (license === "Apache 2.0") {
 
-    licenseLink = "https://choosealicense.com/licenses/apache-2.0/"
+    licenseLink = "[Apache 2.0] (https://choosealicense.com/licenses/apache-2.0/)"
 
   } else if (license === "MIT") {
 
-    licenseLink = "https://choosealicense.com/licenses/mit/"
+    licenseLink = "[MIT](https://choosealicense.com/licenses/mit/)"
 
   } else if (license === "GNU") {
 
-    licenseLink = "https://choosealicense.com/licenses/gpl-3.0/"
+    licenseLink = "[GNU](https://choosealicense.com/licenses/gpl-3.0/)"
 
   } else if (license === "Mozilla") {
 
-    licenseLink = "https://choosealicense.com/licenses/mpl-2.0/"
+    licenseLink = "[Mozilla](https://choosealicense.com/licenses/mpl-2.0/)"
 
   } else {
 
@@ -61,13 +61,8 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
 
   if (license === 'MIT' || license === 'Apache 2.0' || license === 'GNU' || license === 'Mozilla') {
-    return `
-    ${renderLicenseBadge()};
-    ${renderLicenseLink()};
-    
-    `
-    
-    
+    return  renderLicenseBadge(license) + "\n \n" + renderLicenseLink(license)
+        
   } else {
 
     return ("");
