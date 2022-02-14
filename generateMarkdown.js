@@ -121,9 +121,3 @@ To reach me please email me at ${data.email}.
 
 module.exports = generateMarkdown;
 
-
-//TO DO: fix readme table of content links
-// review code one more time
-// figure out why there is two readme
-// improve static readme
-//video demo to create demo readme
