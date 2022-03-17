@@ -42,7 +42,7 @@ I will later add them.
 Git Hub username:
 eli-coding
 
-To reach me please email me at eli@gmail.com.  
+To reach me please email me at elizabethyoannie2020@gmail.com 
 
 
 
