@@ -5,6 +5,9 @@
 ## Description
 It creates professional looking README. 
 
+##Walkthrough
+https://drive.google.com/file/d/10JHPJs6auONuYMtUe9f-r707Y0Ne-k-z/view
+
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
