@@ -23,6 +23,9 @@ On the terminal: node index.js
 ## Usage
 
 Once running on the terminal, enter the answers for the questions being asked to generate the custom ReadMe.
+![Screenshot (134)](https://user-images.githubusercontent.com/80432031/160140068-dd55a223-6632-4c6f-8a0a-94b61b5b54c1.png)
+![Screenshot (147)](https://user-images.githubusercontent.com/80432031/160140195-e0c47f61-a901-4b8d-b76e-62492816d22a.png)
+
 
 ## Licenses
 
