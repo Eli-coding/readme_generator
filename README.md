@@ -3,7 +3,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
         
 ## Description
-It creates professional looking README. 
+It creates professional looking README. Using inquirer and node js, the markdown program is generated. 
 
 ## Walkthrough
 https://drive.google.com/file/d/10JHPJs6auONuYMtUe9f-r707Y0Ne-k-z/view
