@@ -13,29 +13,21 @@ https://drive.google.com/file/d/10JHPJs6auONuYMtUe9f-r707Y0Ne-k-z/view
 * [Installation](#installation)
 * [Usage](#usage)
 * [Licenses](#licenses)
-* [Contribute](#contribute)
-* [Test](#test)
 * [Questions](#questions)
 
 
 ## Installation
 
-The instructions are easy to follow. 
+On the terminal: node index.js 
 
 ## Usage
 
-You can use it for personal use. 
+Once running on the terminal, enter the answers for the questions being asked to generate the custom ReadMe.
 
 ## Licenses
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-## How to Contribute
-
-You are welcome to contribute. 
-
-## Test
-I will later add them. 
 
 ## Questions
  
